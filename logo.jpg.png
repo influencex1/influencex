@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfluenceX – Connect. Grow. Earn.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav>
+    <a class="nav-logo" href="#hero">
+      <img src="logo.jpg" alt="InfluenceX Logo" onerror="this.style.display='none'" />
+      <span>Influence<em>X</em></span>
+    </a>
+    <button class="hamburger" id="ham" aria-label="Toggle menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class="nav-btns" id="navbtns">
+      <a class="btn-ghost"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSeR4VRaVUIyudPv2-92uBkn8SwMdVjvSkxEi4FeGIcFGeErTA/viewform?usp=publish-editor"
+         target="_blank" rel="noopener">
+        Join as Influencer
+      </a>
+      <a class="btn-primary"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSeFzDM81KjLzi54GCejqKGPcEOiju86c7ez9_ibFVBGemxSpg/viewform?usp=publish-editor"
+         target="_blank" rel="noopener">
+        Join as Brand
+      </a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🔥 India's Rising Influencer Platform</div>
+      <h1 class="hero-heading">
+        Connect. Grow.<br />
+        <span>Earn 🚀</span>
+      </h1>
+      <p class="hero-sub">
+        We connect brands with the right influencers for real, measurable growth — no fluff, just results.
+      </p>
+      <div class="hero-ctas">
+        <a class="btn-hero-primary"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSeR4VRaVUIyudPv2-92uBkn8SwMdVjvSkxEi4FeGIcFGeErTA/viewform?usp=publish-editor"
+           target="_blank" rel="noopener">
+          👤 Join as Influencer
+        </a>
+        <a class="btn-hero-outline"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSeFzDM81KjLzi54GCejqKGPcEOiju86c7ez9_ibFVBGemxSpg/viewform?usp=publish-editor"
+           target="_blank" rel="noopener">
+          🏢 Join as Brand
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Influencers</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Brands</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Reach</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">0</div>
+          <div class="stat-label">Satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── WHY CHOOSE US ── -->
+  <section id="why">
+    <p class="section-label reveal">Why InfluenceX</p>
+    <h2 class="section-title reveal">Built for Real Results</h2>
+    <p class="section-sub reveal">We don't just match numbers — we find the right voice for your brand.</p>
+    <div class="cards-grid">
+      <div class="card reveal">
+        <div class="card-icon">✅</div>
+        <h3>Real Influencers</h3>
+        <p>Every creator on our platform is verified. No bots, no fake followers — just genuine audiences that trust them.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">📈</div>
+        <h3>High Engagement</h3>
+        <p>Our influencers consistently deliver above-average engagement rates that translate to actual conversions.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">🌏</div>
+        <h3>Global Reach</h3>
+        <p>From local micro-influencers to pan-India creators, we help you reach the right audience, anywhere.</p>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">🎯</div>
+        <h3>Result-Driven</h3>
+        <p>Every campaign is built around your KPIs. We track performance and optimize until your goals are hit.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOW IT WORKS ── -->
+  <section id="how">
+    <p class="section-label reveal">The Process</p>
+    <h2 class="section-title reveal">How It Works</h2>
+    <p class="section-sub reveal">Simple, fast, and transparent — getting started takes less than 2 minutes.</p>
+    <div class="timeline">
+      <div class="timeline-step reveal">
+        <div class="step-num">1</div>
+        <div class="step-body">
+          <h3>Fill the Form</h3>
+          <p>Tell us about your brand or your creator profile. Our form takes under 2 minutes and gives us everything we need to get started.</p>
+        </div>
+      </div>
+      <div class="timeline-step reveal">
+        <div class="step-num">2</div>
+        <div class="step-body">
+          <h3>We Connect You</h3>
+          <p>Our team reviews your submission and matches you with the perfect partner — brand to influencer or influencer to brand — within 48 hours.</p>
+        </div>
+      </div>
+      <div class="timeline-step reveal last-step">
+        <div class="step-num">3</div>
+        <div class="step-body">
+          <h3>Start Collaboration</h3>
+          <p>Once matched, you both get introduced. Discuss terms, timelines, and kick off a campaign that drives real results.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOR BRANDS & INFLUENCERS ── -->
+  <section id="split">
+    <p class="section-label reveal">Who It's For</p>
+    <h2 class="section-title reveal">One Platform, Two Sides</h2>
+    <p class="section-sub reveal">Whether you're building a brand or building your personal brand — InfluenceX has you covered.</p>
+    <div class="split-grid">
+      <div class="split-card reveal">
+        <div class="split-tag">For Brands</div>
+        <h2>Grow with<br/>Creators</h2>
+        <ul>
+          <li>Get matched with the right creators for your niche</li>
+          <li>Boost your sales with authentic content</li>
+          <li>Track campaign performance in real-time</li>
+          <li>Reach verified, engaged audiences</li>
+        </ul>
+      </div>
+      <div class="split-card reveal">
+        <div class="split-tag">For Influencers</div>
+        <h2>Monetize Your<br/>Influence</h2>
+        <ul>
+          <li>Get paid collaboration opportunities</li>
+          <li>Work with real, growing brands</li>
+          <li>Build long-term brand partnerships</li>
+          <li>Grow your personal brand profile</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section id="cta">
+    <div class="cta-inner">
+      <p class="section-label reveal">Get Started</p>
+      <h2 class="reveal">Ready to grow<br/>your brand?</h2>
+      <p class="reveal">Join hundreds of brands and influencers already growing with InfluenceX.</p>
+      <a class="btn-cta reveal"
+         href="https://docs.google.com/forms/d/e/1FAIpQLSeFzDM81KjLzi54GCejqKGPcEOiju86c7ez9_ibFVBGemxSpg/viewform?usp=publish-editor"
+         target="_blank" rel="noopener">
+        Join as Brand 🚀
+      </a>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-inner">
+      <a class="footer-brand" href="#hero">
+        <img src="logo.jpg" alt="InfluenceX Logo" onerror="this.style.display='none'" />
+        <span>Influence<em>X</em></span>
+      </a>
+      <div class="footer-links">
+        <a href="https://instagram.com" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>
+          </svg>
+          __influence__x__
+        </a>
+        <a href="mailto:hello@influencex.in">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M22 7l-10 7L2 7"/>
+          </svg>
+          influenceindia2026@gmail.com
+        </a>
+      </div>
+    </div>
+    <p class="footer-copy">© 2025 InfluenceX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

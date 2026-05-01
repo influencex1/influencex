@@ -1,0 +1,44 @@
+/* ═══════════════════════════════════════════
+   InfluenceX — script.js
+═══════════════════════════════════════════ */
+
+/* ── HAMBURGER MENU ── */
+const ham     = document.getElementById('ham');
+const navbtns = document.getElementById('navbtns');
+
+ham.addEventListener('click', () => {
+  navbtns.classList.toggle('open');
+});
+
+// Close menu when any nav link is tapped (mobile UX)
+navbtns.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    navbtns.classList.remove('open');
+  });
+});
+
+/* ── NAVBAR SCROLL EFFECT ── */
+window.addEventListener('scroll', () => {
+  const nav = document.querySelector('nav');
+  if (window.scrollY > 20) {
+    nav.style.background = 'rgba(10, 10, 10, 0.95)';
+  } else {
+    nav.style.background = 'rgba(10, 10, 10, 0.75)';
+  }
+});
+
+/* ── SCROLL REVEAL ── */
+const revealElements = document.querySelectorAll('.reveal');
+
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      revealObserver.unobserve(entry.target); // animate only once
+    }
+  });
+}, {
+  threshold: 0.12
+});
+
+revealElements.forEach(el => revealObserver.observe(el));
